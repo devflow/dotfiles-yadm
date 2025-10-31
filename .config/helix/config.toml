@@ -26,3 +26,6 @@ render=true
 skip-levels=1
 
 
+[editor.file-picker]
+hidden=false
+

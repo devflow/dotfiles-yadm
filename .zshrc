@@ -27,6 +27,11 @@ fi
 GOOGLE_CLOUD_SDK_PATH="$HOME/Downloads/google-cloud-sdk"
 if [ -f '$GOOGLE_CLOUD_SDK_PATH/completion.zsh.inc' ]; then . '$GOOGLE_CLOUD_SDK_PATH/completion.zsh.inc'; fi
 
+# Languages
+
+## Angular
+export NODE_MODULES_GLOBAL="$(npm root -g)"
+
 # Aliases
 alias ngsv="npx ng serve --no-hmr $1"
 alias update-apidocs="curl -o ./api-docs.json http://localhost:8080/docs/api-docs && npm run generate:api"
