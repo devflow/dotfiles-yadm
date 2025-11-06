@@ -13,9 +13,9 @@ file-types = ["ts", "typescript", "html"]
 
 [[language]]
 name = "typescript"
-language-servers = ["angular-ls", "typescript-language-server"]
+language-servers = ["angular-ls", "typescript-language-server", "vscode-eslint-language-server"]
 
 [[language]]
 name = "html"
-language-servers = ["angular-ls", "vscode-html-language-server"]
+language-servers = ["angular-ls", "vscode-html-language-server", "vscode-eslint-language-server"]
 
