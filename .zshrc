@@ -39,6 +39,8 @@ alias update-apidocs="curl -o ./api-docs.json http://localhost:8080/docs/api-doc
 # Paths
 path+=("$GOOGLE_CLOUD_SDK_PATH/bin")
 
+source "$HOME/.cargo/env"
+
 export PATH
 
 
